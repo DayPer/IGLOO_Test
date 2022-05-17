@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{4F06E10A-D20A-4B0D-BD8A-4F7AE891FDED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(DAL)Data", "(DAL)Data", "{4B0B5D2E-B261-42DF-89BA-1D54A245E0F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(BI)Logic", "(BI)Logic", "{8830F881-D785-453E-8128-BDA41F97E1E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logica\Logic.csproj", "{20081B3C-21A5-4B42-93D6-ABE906A1718E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Datos\Data.csproj", "{89F9749C-B41F-471D-AB2D-2BBE6AA95036}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Presentacion", "http://localhost:49718", "{1F79556B-8F72-4AD7-9A91-F15ADBB89B4E}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{89f9749c-b41f-471d-ab2d-2bbe6aa95036}|ConfiguracionCadena.dll;{20081b3c-21a5-4b42-93d6-abe906a1718e}|Logica.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49718"
+		Debug.AspNetCompiler.PhysicalPath = "Presentacion\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49718\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49718"
+		Release.AspNetCompiler.PhysicalPath = "Presentacion\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49718\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Presentacion\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20081B3C-21A5-4B42-93D6-ABE906A1718E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20081B3C-21A5-4B42-93D6-ABE906A1718E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20081B3C-21A5-4B42-93D6-ABE906A1718E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20081B3C-21A5-4B42-93D6-ABE906A1718E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F9749C-B41F-471D-AB2D-2BBE6AA95036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F9749C-B41F-471D-AB2D-2BBE6AA95036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F9749C-B41F-471D-AB2D-2BBE6AA95036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F9749C-B41F-471D-AB2D-2BBE6AA95036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F79556B-8F72-4AD7-9A91-F15ADBB89B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F79556B-8F72-4AD7-9A91-F15ADBB89B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F79556B-8F72-4AD7-9A91-F15ADBB89B4E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F79556B-8F72-4AD7-9A91-F15ADBB89B4E}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20081B3C-21A5-4B42-93D6-ABE906A1718E} = {8830F881-D785-453E-8128-BDA41F97E1E6}
+		{89F9749C-B41F-471D-AB2D-2BBE6AA95036} = {4B0B5D2E-B261-42DF-89BA-1D54A245E0F1}
+		{1F79556B-8F72-4AD7-9A91-F15ADBB89B4E} = {4F06E10A-D20A-4B0D-BD8A-4F7AE891FDED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFBD3BE1-1ECA-4532-A6D2-1459FD2DE5A8}
+	EndGlobalSection
+EndGlobal
